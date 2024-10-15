@@ -3,6 +3,10 @@
 	"displayName": "Excel Import Extension",
 	"description": "Import Excel files to SQL Server tables",
 	"publisher": "bad-monkey-software",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:BadMonkeySoftware/excel-import-extension.git"
+    },
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.39.0",
@@ -23,6 +27,7 @@
 			}
 		]
 	},
+    "license": "MIT",
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
