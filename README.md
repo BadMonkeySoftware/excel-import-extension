@@ -41,7 +41,7 @@ To set up the development environment:
    ```
 4. Clone this repository:
    ```
-   git clone https://github.com/yourusername/excel-import-extension.git
+   git clone https://github.com/BadMonkeySoftware/excel-import-extension.git
    cd excel-import-extension
    ```
 5. Install dependencies:
@@ -63,6 +63,7 @@ To build the extension:
    ```
 2. Package the extension:
    ```
+   npm install -g vsce
    vsce package
    ```
 
@@ -132,7 +133,7 @@ Here's a list of potential improvements for future development:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ## Acknowledgments
 
