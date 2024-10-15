@@ -1,0 +1,45 @@
+{
+	"name": "excel-import-extension",
+	"displayName": "Excel Import Extension",
+	"description": "Import Excel files to SQL Server tables",
+	"publisher": "bad-monkey-software",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.39.0",
+		"azdata": "*"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+        "onCommand:excel-import-extension.importExcel"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+        "command": "excel-import-extension.importExcel",
+        "title": "Import Excel to SQL Server"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.39.0",
+		"@types/azdata": "*",
+		"@types/glob": "^7.1.4",
+		"@types/mocha": "^9.0.0",
+		"@types/node": "^13.11.0",
+		"glob": "^7.1.7",
+		"mocha": "^9.1.0",
+		"typescript": "^4.3.5",
+		"azdata-test": "^1.x"
+	},
+    "dependencies": {
+        "xlsx": "^0.17.0"
+    }
+}
