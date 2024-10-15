@@ -66,6 +66,10 @@ To build the extension:
    npm install -g vsce
    vsce package
    ```
+3. If you get errors publishing to repo and you don't want public repo use:
+    ```
+    vsce package --baseContentUrl https://your-content-base-url --baseImagesUrl https://your-images-base-url
+    ```
 
 This will generate a `.vsix` file that can be installed in Azure Data Studio.
 
