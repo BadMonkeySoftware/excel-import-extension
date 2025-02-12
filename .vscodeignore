@@ -1,4 +1,5 @@
 .vscode
+.vscode/**
 .ads-test
 out/test
 src

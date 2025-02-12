@@ -45,10 +45,10 @@
 		"@types/vscode": "^1.39.0",
 		"azdata-test": "^1.x",
 		"glob": "^7.1.7",
-		"mocha": "^9.1.0",
+		"mocha": "^11.1.0",
 		"typescript": "^4.3.5"
 	},
 	"dependencies": {
-		"xlsx": "^0.19.3"
+		"xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
 	}
 }
